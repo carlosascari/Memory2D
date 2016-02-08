@@ -257,7 +257,7 @@ function Memory2D(prealloc_x, prealloc_y)
 
 				if (index)
 				{
-					found[found.length] = storage[index] >>> 0
+					found[found.length] = storage[index]
 				}
 			}
 		}
